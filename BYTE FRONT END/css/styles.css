@@ -1,0 +1,107 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("images/bgm.jpg"); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+.login-container,
+.register-container,
+.dashboard-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dashboard-container textarea {
+  width: 100%;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+/* Add this style to center the welcome text */
+.welcome {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #121312; /* Text color for better visibility on the background image */
+}
+/* Add this style for the container of the buttons */
+.buttons-container {
+  text-align: center;
+}
+
+/* Style for the buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for the buttons */
+.button:hover {
+  background-color: #555;
+}
+
+/* Style for form inputs */
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Add a border */
+  background-color: transparent; /* Set the text area background to transparent */
+  color: #000; /* Set the text color to black */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Style for form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000; /* Text color for better visibility on the background image */
+}
+
+.transparent-form {
+  text-align: center;
+  background-color: transparent; /* Set the form background to transparent */
+}

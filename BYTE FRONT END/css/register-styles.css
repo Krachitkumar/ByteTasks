@@ -1,0 +1,27 @@
+/* Additional styles for the register page */
+
+.register-container {
+    width: 300px; /* Adjust the width as needed */
+    margin: auto;
+    text-align: center;
+}
+
+/* Style for form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for form inputs */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Style for the register button */
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}

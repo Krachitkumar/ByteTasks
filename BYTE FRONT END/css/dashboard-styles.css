@@ -1,0 +1,83 @@
+/* Additional styles for the dashboard page */
+
+/* Add a class for the transparent form */
+.transparent-form {
+  text-align: center;
+  background-color: transparent; /* Set the form background to transparent */
+}
+
+/* Style for form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000; /* Text color for better visibility on the background image */
+}
+
+/* Style for form inputs */
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: none; /* Remove the border */
+  background-color: transparent; /* Set the text area background to transparent */
+  color: #000; /* Set the text color to black */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Style for the submit button */
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Hover effect for the submit button */
+button:hover {
+  background-color: #555;
+}
+
+.logout-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Hover effect for the logout button */
+.logout-button:hover {
+  background-color: #555;
+}
+
+/* Style for the poem boxes */
+.poem-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Style for poem titles */
+h3 {
+  color: #333;
+}
+
+/* Add styles as needed for the title input and poem textarea */
+#poemTitle,
+#poemText {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  color: #000;
+  resize: vertical;
+}
